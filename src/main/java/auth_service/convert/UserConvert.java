@@ -4,8 +4,8 @@ import java.util.function.Function;
 
 import org.springframework.stereotype.Service;
 
-import auth_service.UserRecord;
 import auth_service.expenses_persistence.entity.UserEntity;
+import auth_service.records.UserRecord;
 
 @Service
 public class UserConvert implements Function<UserEntity, UserRecord> {

@@ -3,7 +3,7 @@ package auth_service.dto.response;
 
 import java.util.List;
 
-import auth_service.UserRecord;
+import auth_service.records.UserRecord;
 import lombok.Data;
 
 

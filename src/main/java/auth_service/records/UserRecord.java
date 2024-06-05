@@ -1,4 +1,4 @@
-package auth_service;
+package auth_service.records;
 
 public record UserRecord(
         Long id,
